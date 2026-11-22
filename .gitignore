@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & temporary files
+*.log
+npm-debug.log*
+.cache/
+tmp/
+.tmp/
+
+# Local validation checkout
+.cc-router/
+cc-router/
+
+# Environment variables
+.env
+.env.*

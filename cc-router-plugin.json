@@ -1,0 +1,23 @@
+{
+  "manifest": 1,
+  "id": "model-pricing",
+  "type": "pricing",
+  "version": "1.0.0",
+  "name": {
+    "zh": "全球模型价格表（USD）",
+    "zh-Hant": "全球模型價格表（USD）",
+    "en": "Global Model Pricing (USD)",
+    "ja": "グローバルモデル料金表（USD）"
+  },
+  "description": {
+    "zh": "基于 models.dev（辅以 OpenRouter 与 LiteLLM 补齐）生成的全量 USD 计价表，覆盖主流海内外厂商与常见中转模型，含缓存读写价格。最近同步：2026-11-22。",
+    "zh-Hant": "基於 models.dev（輔以 OpenRouter 與 LiteLLM 補齊）生成的全量 USD 計價表，覆蓋主流海內外廠商與常見中轉模型，含快取讀寫價格。最近同步：2026-11-22。",
+    "en": "Comprehensive USD pricing table generated from models.dev (supplemented by OpenRouter and LiteLLM), covering major global & China providers plus wildcard fallbacks with cache read/write rates. Last synced: 2026-11-22.",
+    "ja": "models.dev（OpenRouter・LiteLLM で補完）から生成した包括的な USD 料金表。主要プロバイダとキャッシュ読込・書込料金に対応。最終同期：2026-11-22。"
+  },
+  "author": "finch-xu",
+  "license": "MIT",
+  "homepage": "https://github.com/finch-xu/cc-router-model-pricing",
+  "entry": "pricing.json",
+  "assets": []
+}

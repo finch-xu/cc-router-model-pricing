@@ -1,0 +1,10 @@
+{
+  "name": "cc-router-model-pricing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Global USD LLM model pricing table plugin for cc-router, synced from models.dev, OpenRouter, and LiteLLM.",
+  "scripts": {
+    "sync": "node scripts/sync.mjs"
+  }
+}
