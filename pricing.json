@@ -7439,15 +7439,15 @@
       "provider": "openrouter",
       "model": "~deepseek/deepseek-pro-latest",
       "input": 0.0999,
-      "output": 8,
+      "output": 5,
       "cache_read": 0.0999
     },
     {
       "provider": "openrouter",
       "model": "~deepseek/deepseek-v4-flash-latest",
-      "input": 0.044,
-      "output": 0.132,
-      "cache_read": 0.0014
+      "input": 0.0434,
+      "output": 0.3,
+      "cache_read": 0.035
     },
     {
       "provider": "openrouter",
@@ -7529,8 +7529,8 @@
     {
       "provider": "openrouter",
       "model": "~z-ai/glm-flash-latest",
-      "input": 0.0463,
-      "output": 0.0729,
+      "input": 0.0399,
+      "output": 0.0784,
       "cache_read": 0.03
     },
     {
@@ -8108,7 +8108,7 @@
     {
       "provider": "openrouter",
       "model": "deepseek/deepseek-v4-flash-0731",
-      "input": 0.0443,
+      "input": 0.0434,
       "output": 0.3,
       "cache_read": 0.035
     },
@@ -8167,6 +8167,12 @@
       "input": 0.05,
       "output": 0.15,
       "cache_read": 0.004
+    },
+    {
+      "provider": "openrouter",
+      "model": "dots-studio/dots-3-note-preview:free",
+      "input": 0,
+      "output": 0
     },
     {
       "provider": "openrouter",
@@ -8491,8 +8497,7 @@
       "provider": "openrouter",
       "model": "google/gemma-3-27b-it",
       "input": 0.08,
-      "output": 0.45,
-      "cache_read": 0.04
+      "output": 0.16
     },
     {
       "provider": "openrouter",
@@ -8504,9 +8509,9 @@
     {
       "provider": "openrouter",
       "model": "google/gemma-4-26b-a4b-it",
-      "input": 0.0675,
-      "output": 0.225,
-      "cache_read": 0.0375
+      "input": 0.09,
+      "output": 0.3,
+      "cache_read": 0.05
     },
     {
       "provider": "openrouter",
@@ -9835,8 +9840,9 @@
     {
       "provider": "openrouter",
       "model": "openai/gpt-oss-120b",
-      "input": 0.09,
-      "output": 0.36
+      "input": 0.05,
+      "output": 0.25,
+      "cache_read": 0.05
     },
     {
       "provider": "openrouter",
@@ -9847,9 +9853,9 @@
     {
       "provider": "openrouter",
       "model": "openai/gpt-oss-20b",
-      "input": 0.075,
-      "output": 0.3,
-      "cache_read": 0.0375
+      "input": 0.03,
+      "output": 0.13,
+      "cache_read": 0.03
     },
     {
       "provider": "openrouter",
@@ -10153,8 +10159,8 @@
     {
       "provider": "openrouter",
       "model": "qwen/qwen3.6-35b-a3b",
-      "input": 0.1,
-      "output": 0.9,
+      "input": 0.05,
+      "output": 0.7,
       "cache_read": 0.025
     },
     {
@@ -10721,8 +10727,8 @@
     {
       "provider": "openrouter",
       "model": "z-ai/glm-5.3-flash",
-      "input": 0.15,
-      "output": 0.5,
+      "input": 0.0399,
+      "output": 0.0784,
       "cache_read": 0.03
     },
     {
